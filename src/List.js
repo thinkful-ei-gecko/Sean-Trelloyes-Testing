@@ -6,6 +6,7 @@ import './list.css'
 class List extends React.Component {
 
     render(props){
+        console.log(this.props.cards);
         return(
 
             <section className="List">
